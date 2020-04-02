@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using AspNetCoreTodo.Data;
 using AspNetCoreTodo.Models;
 using AspNetCoreTodo.Services;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace AspNetCoreTodo
 {
@@ -26,9 +27,9 @@ namespace AspNetCoreTodo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
-
+            services.AddDbContextPool<ApplicationDbContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), mySqlOptions => mySqlOptions.ServerVersion(new Version(8, 0, 18), ServerType.MySql)
+                ));
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
@@ -47,23 +48,27 @@ namespace AspNetCoreTodo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
+                // app.UseDatabaseErrorPage("not available");
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
             app.UseStaticFiles();
+            app.UseRouting();
+            app.UseCors();
 
-            app.UseAuthentication();
-
-            app.UseMvc(routes =>
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
             });
+
+            /*   app.UseMvc(routes =>
+              {
+                  routes.MapRoute(
+                      name: "default",
+                      template: "{controller=Home}/{action=Index}/{id?}");
+              }  );*/
         }
     }
 }

@@ -1,34 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\AspNetCoreTodo.csproj": {}
+    "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\AspNetCoreTodo.csproj": {
+    "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\AspNetCoreTodo.csproj",
-        "packagesPath": "C:\\Users\\maquill.revere81\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\obj\\",
+        "projectPath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/AspNetCoreTodo.csproj",
+        "packagesPath": "/Users/diego_maquill/.nuget/packages/",
+        "outputPath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\maquill.revere81\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/diego_maquill/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -39,7 +34,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.0": {
           "dependencies": {
             "BuildBundlerMinifier": {
               "target": "Package",
@@ -49,20 +44,21 @@
               "target": "Package",
               "version": "[2.5.1, )"
             },
-            "Microsoft.AspNetCore.All": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.1.5, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[3.0.0, )"
             },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "suppressParent": "All",
@@ -71,7 +67,7 @@
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -84,7 +80,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.102\\RuntimeIdentifierGraph.json"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     }

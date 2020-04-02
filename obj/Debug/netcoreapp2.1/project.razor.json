@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\AspNetCoreTodo.csproj",
+  "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/AspNetCoreTodo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -11,6 +11,96 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "Kind": "ITagHelper",
+        "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
+        "AssemblyName": "Microsoft.AspNetCore.SpaServices",
+        "Documentation": "\n            <summary>\n            A tag helper for prerendering JavaScript applications on the server.\n            </summary>\n        ",
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "*",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [
+              {
+                "Name": "asp-prerender-module",
+                "NameComparison": 0,
+                "Value": null,
+                "ValueComparison": 0,
+                "Diagnostics": [],
+                "Metadata": {}
+              }
+            ],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-module",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Specifies the path to the JavaScript module containing prerendering code.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "ModuleName"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-export",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            If set, specifies the name of the CommonJS export that is the prerendering function to execute.\n            If not set, the JavaScript module's default CommonJS export must itself be the prerendering function.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "ExportName"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-data",
+            "TypeName": "System.Object",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            An optional JSON-serializable parameter to be supplied to the prerendering code.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "CustomDataParameter"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-prerender-timeout",
+            "TypeName": "System.Int32",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            The maximum duration to wait for prerendering to complete.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "TimeoutMillisecondsParameter"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper"
+        }
+      },
       {
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
@@ -2780,96 +2870,6 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper"
         }
-      },
-      {
-        "Kind": "ITagHelper",
-        "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
-        "AssemblyName": "Microsoft.AspNetCore.SpaServices",
-        "Documentation": "\n            <summary>\n            A tag helper for prerendering JavaScript applications on the server.\n            </summary>\n        ",
-        "TagOutputHint": null,
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "*",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [
-              {
-                "Name": "asp-prerender-module",
-                "NameComparison": 0,
-                "Value": null,
-                "ValueComparison": 0,
-                "Diagnostics": [],
-                "Metadata": {}
-              }
-            ],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-prerender-module",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Specifies the path to the JavaScript module containing prerendering code.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "ModuleName"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-prerender-export",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            If set, specifies the name of the CommonJS export that is the prerendering function to execute.\n            If not set, the JavaScript module's default CommonJS export must itself be the prerendering function.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "ExportName"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-prerender-data",
-            "TypeName": "System.Object",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            An optional JSON-serializable parameter to be supplied to the prerendering code.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "CustomDataParameter"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-prerender-timeout",
-            "TypeName": "System.Int32",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            The maximum duration to wait for prerendering to complete.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "TimeoutMillisecondsParameter"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper"
-        }
       }
     ],
     "CSharpLanguageVersion": 703
@@ -2877,183 +2877,183 @@
   "RootNamespace": "AspNetCoreTodo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\LoginWithRecoveryCode.cshtml",
-      "TargetPath": "Views\\Account\\LoginWithRecoveryCode.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-      "TargetPath": "Views\\Account\\ForgotPasswordConfirmation.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\TwoFactorAuthentication.cshtml",
-      "TargetPath": "Views\\Manage\\TwoFactorAuthentication.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ForgotPassword.cshtml",
-      "TargetPath": "Views\\Account\\ForgotPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\EnableAuthenticator.cshtml",
-      "TargetPath": "Views\\Manage\\EnableAuthenticator.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\Lockout.cshtml",
-      "TargetPath": "Views\\Account\\Lockout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ExternalLogin.cshtml",
-      "TargetPath": "Views\\Account\\ExternalLogin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\_StatusMessage.cshtml",
-      "TargetPath": "Views\\Manage\\_StatusMessage.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ConfirmEmail.cshtml",
-      "TargetPath": "Views\\Account\\ConfirmEmail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\_Layout.cshtml",
-      "TargetPath": "Views\\Manage\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\LoginWith2fa.cshtml",
-      "TargetPath": "Views\\Account\\LoginWith2fa.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Todo\\Index.cshtml",
-      "TargetPath": "Views\\Todo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Home\\About.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-      "TargetPath": "Views\\Account\\ResetPasswordConfirmation.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\SetPassword.cshtml",
-      "TargetPath": "Views\\Manage\\SetPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\ResetAuthenticator.cshtml",
-      "TargetPath": "Views\\Manage\\ResetAuthenticator.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\Index.cshtml",
-      "TargetPath": "Views\\Manage\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\Login.cshtml",
-      "TargetPath": "Views\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\Disable2fa.cshtml",
-      "TargetPath": "Views\\Manage\\Disable2fa.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\ExternalLogins.cshtml",
-      "TargetPath": "Views\\Manage\\ExternalLogins.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\AccessDenied.cshtml",
-      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\ResetPassword.cshtml",
-      "TargetPath": "Views\\Account\\ResetPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\_ViewImports.cshtml",
-      "TargetPath": "Views\\Manage\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\Register.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/Lockout.cshtml",
+      "TargetPath": "Views\\Account\\Lockout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\GenerateRecoveryCodes.cshtml",
-      "TargetPath": "Views\\Manage\\GenerateRecoveryCodes.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/Disable2fa.cshtml",
+      "TargetPath": "Views\\Manage\\Disable2fa.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\ChangePassword.cshtml",
-      "TargetPath": "Views\\Manage\\ChangePassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Home\\Index.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Account\\SignedOut.cshtml",
-      "TargetPath": "Views\\Account\\SignedOut.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ResetPassword.cshtml",
+      "TargetPath": "Views\\Account\\ResetPassword.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Manage\\_ManageNav.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/_ViewImports.cshtml",
+      "TargetPath": "Views\\Manage\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/_StatusMessage.cshtml",
+      "TargetPath": "Views\\Manage\\_StatusMessage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ForgotPasswordConfirmation.cshtml",
+      "TargetPath": "Views\\Account\\ForgotPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/LoginWithRecoveryCode.cshtml",
+      "TargetPath": "Views\\Account\\LoginWithRecoveryCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/LoginWith2fa.cshtml",
+      "TargetPath": "Views\\Account\\LoginWith2fa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Home/Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/ResetAuthenticator.cshtml",
+      "TargetPath": "Views\\Manage\\ResetAuthenticator.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ConfirmEmail.cshtml",
+      "TargetPath": "Views\\Account\\ConfirmEmail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/SetPassword.cshtml",
+      "TargetPath": "Views\\Manage\\SetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/GenerateRecoveryCodes.cshtml",
+      "TargetPath": "Views\\Manage\\GenerateRecoveryCodes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Shared/_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Todo/Index.cshtml",
+      "TargetPath": "Views\\Todo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/EnableAuthenticator.cshtml",
+      "TargetPath": "Views\\Manage\\EnableAuthenticator.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ForgotPassword.cshtml",
+      "TargetPath": "Views\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/_ManageNav.cshtml",
       "TargetPath": "Views\\Manage\\_ManageNav.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maquill.revere81\\DOTNET_Working\\Test_bed\\simple-asp-net-core-2-todo-app\\Views\\Home\\Contact.cshtml",
-      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/ExternalLogins.cshtml",
+      "TargetPath": "Views\\Manage\\ExternalLogins.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/ChangePassword.cshtml",
+      "TargetPath": "Views\\Manage\\ChangePassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/Index.cshtml",
+      "TargetPath": "Views\\Manage\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/_Layout.cshtml",
+      "TargetPath": "Views\\Manage\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/SignedOut.cshtml",
+      "TargetPath": "Views\\Account\\SignedOut.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ExternalLogin.cshtml",
+      "TargetPath": "Views\\Account\\ExternalLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Account/ResetPasswordConfirmation.cshtml",
+      "TargetPath": "Views\\Account\\ResetPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/diego_maquill/All_Software_Developer/DotNet_Developing/All_Working_apps_test_bed/todolist-asp-net-2/Views/Manage/TwoFactorAuthentication.cshtml",
+      "TargetPath": "Views\\Manage\\TwoFactorAuthentication.cshtml",
       "FileKind": "mvc"
     }
   ],
